@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEETUP #3 LEGAL DESIGN THINIKING | WUNDERPEOPLE | MORE PUNK</title>
+    <meta name="description" content="presentation summaries legal design thinking meet-up #3 about ENERGY TRANSITION">
+    <meta name="keywords" content="ENERGY TRANSITION, legal design thinking, energy, save, energy delivering, non-carbon & clean energy, technology, cost effectiveness">
+    <meta name="author" content="Wunderpeople">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- content -->
+        <div class="layer wrapper" :style="{transform: ['translate3d(' + nextSlideDemo(slide) + 'px,0,0)']}">
+            <!-- slide-1 -->
+            <div class="wrapper__slide-1" ref="slide1">
+                <div class="contents">
+                    <div class="visual" v-for="(para,index2) in contents.slides[0]" :class="['slide-1_pa-' + index2]">
+                        <h3 v-for="t3 in para.tittle3">{{t3}}</h3>
+                        <h4 v-for="t4 in para.tittle4">{{t4}}</h4>
+                        <div v-for="(phase,index3) in para.content" :class="['slide-1_pa-' + index2 + '_p-' + index3]">
+                            <p v-for="words in phase" v-html="words">{{words}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="background">
+                    <div class="image-wrapper">
+                        <img src="./assets/image/pics/Energy-Lab.gif" alt="Energy-Lab">
+                    </div>
+
+                    <div class="decoration decoration_11 blending_color-burn" :class="[hover ? 'deco-sliding' : '']">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco1.svg" alt="">
+                    </div>
+                    <div class="decoration decoration_12 decor_rotate">
+                        <img src="./assets/image/deco/deco2.png" alt="">
+                    </div>
+                    <div class="decoration decoration_13 blending_color-burn" :class="[slide != 1 ? 'decoration_13-forward' : '']">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- slide-2 -->
+            <div class="wrapper__slide-2" ref="slide2">
+                <div class="contents">
+                    <div v-for="(para,index2) in contents.slides[1]" :class="['slide-2_pa-' + index2]">
+                        <h3 v-for="t3 in para.tittle3">{{t3}}</h3>
+                        <h4 v-for="t4 in para.tittle4">{{t4}}</h4>
+                        <div v-for="(phase,index3) in para.content" :class="['slide-2_pa-' + index2 + '_p-' + index3]">
+                            <p v-for="words in phase" v-html="words">{{words}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="background">
+                    <div class="image-wrapper">
+                        <img src="./assets/image/pics/pic2.jpg" alt="image here">
+                    </div>
+
+                    <div class="decoration decoration_21 blending_color-burn">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco3.svg" alt="">
+                    </div>
+                    <div class="decoration decoration_22 blending_color-burn" :class="[hover ? 'deco-sliding' : '']">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco1.svg" alt="">
+                    </div>
+                    <div class="decoration decoration_23 blending_color-burn" :class="[slide != 1 ? 'decoration_23-forward' : '']">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- slide-3 -->
+            <div class="wrapper__slide-3" ref="slide3">
+                <div class="contents">
+                    <div v-for="(para,index2) in contents.slides[2]" :class="['slide-3_pa-' + index2]">
+                        <h3 v-for="t3 in para.tittle3">{{t3}}</h3>
+                        <h4 v-for="t4 in para.tittle4">{{t4}}</h4>
+                        <div v-for="(phase,index3) in para.content" :class="['slide-3_pa-' + index2 + '_p-' + index3]">
+                            <p v-for="words in phase" v-html="words">{{words}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="background">
+                    <div class="image-wrapper">
+                        <img src="./assets/image/pics/pic3.jpg" alt="image here">
+                    </div>
+
+                    <div class="decoration decoration_31 decor_rotate">
+                        <img src="./assets/image/deco/deco2.png" alt="">
+                    </div>
+                    <div class="decoration decoration_32 blending_color-burn">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco3.svg" alt="">
+                    </div>
+                    <div class="decoration decoration_33 blending_color-burn" :class="[hover ? 'deco-sliding' : '']">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- slide-4 -->
+            <div class="wrapper__slide-4" ref="slide4">
+                <div class="contents">
+                    <div v-for="(para,index2) in contents.slides[3]" :class="['slide-4_pa-' + index2]">
+                        <h3 v-for="t3 in para.tittle3">{{t3}}</h3>
+                        <h4 v-for="t4 in para.tittle4">{{t4}}</h4>
+                        <div v-for="(phase,index3) in para.content" :class="['slide-4_pa-' + index2 + '_p-' + index3]">
+                            <p v-for="words in phase" v-html="words">{{words}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="background">
+                    <div class="image-wrapper">
+                        <img src="./assets/image/pics/pic4.jpg" alt="image here">
+                    </div>
+
+                    <div class="decoration decoration_41 blending_color-burn" :class="[hover ? 'deco-sliding' : '']">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco1.svg" alt="">
+                    </div>
+                    <div class="decoration decoration_42 decor_rotate">
+                        <img src="./assets/image/deco/deco2.png" alt="">
+                    </div>
+                    <div class="decoration decoration_43 blending_color-burn">
+                        <img class="blending_color-burn" src="./assets/image/deco/deco3.svg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main-tittles -->
+        <div class="layer tittles">
+            <!-- slogan -->
+            <div class="logo">
+                <meta name="description-1" content="Wunderpeople logo">
+                <!-- Wunderpeople -->
+                <div class="logo__logo-1">
+                    <img src="./assets/logo/wunderpeople.svg" alt="Wunderpeople">
+                </div>
+                <!-- BORDERSESSIONS -->
+                <div class="logo__logo-2">
+                        <img src="./assets/logo/BORDERSESSIONS.svg" alt="BORDERSESSIONS">
+                    </div>
+            </div>
+            <!-- topic -->
+            <div class="tittles__small-tittle">
+                <h4 class="blending_color-burn">{{contents.smalltittle}}</h4>
+            </div>
+            <div class="tittles__tittle-wrapper">
+                <div class="tittles__decoration"></div>
+                <div class="tittles__tittle deco-swing" :class="[slide == 4 ? 'tittle-end' : '']">
+                    <h1 class="blending_color-burn">{{contents.tittle}}</h1>
+                </div>
+                <div class="tittles__topic deco-swing">
+                    <h2 class="blending_color-burn">{{contents.topic}}</h2>
+                </div>
+            </div>
+            <div class="tittles__date">15 June 2018, The Hague</div>
+        </div>
+
+        <!-- controller -->
+        <div class="layer controller">
+            <ul class="controller__list">
+                <li class="controller__item blending_color-burn" @mouseenter="hover=true" @mouseleave="hover=false" @click="slide=1;contentAnimation('slide1')"
+                    :class="slide == 1 ? 'active' : ''">Meetup #3</li>
+                <li class="controller__item blending_color-burn" @mouseenter="hover=true" @mouseleave="hover=false" @click="slide=2;contentAnimation('slide2')"
+                    :class="slide == 2 ? 'active' : ''">Situation</li>
+                <li class="controller__item blending_color-burn" @mouseenter="hover=true" @mouseleave="hover=false" @click="slide=3;contentAnimation('slide3')"
+                    :class="slide == 3 ? 'active' : ''">Challenges</li>
+                <li class="controller__item blending_color-burn" @mouseenter="hover=true" @mouseleave="hover=false" @click="slide=4;contentAnimation('slide4')"
+                    :class="slide == 4 ? 'active' : ''">Next steps</li>
+            </ul>
+
+            <!-- navigate arrows -->
+            <div class="controller__arrow" @mouseenter="hover=true" @mouseleave="hover=false" @click="arrowNavigation()"
+                :class="['arrow-' + slide]"></div>
+
+            <!-- download content -->
+            <div class="download">
+                <a class="download__link" href="http://insights.wunderpeople.com/downloads/Meetup3.pdf" download>
+                    <span class="download__icon"></span>
+                    <span>Download Content</span>
+                </a>
+            </div>
+        </div>
+        <!-- sample -->
+        <div style="width:100%;height:100%;position: absolute;left: 0;top: 0;opacity: .3;">
+            <img :src="['./assets/sample/s' + slide + '.png']" style="width: 100%;height: 100%;object-fit: fill" alt="">
+        </div>
+    </div>
+
+    <script src="./libs/vuejs/vue.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

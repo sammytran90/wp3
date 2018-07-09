@@ -1,0 +1,26 @@
+@import "./fonts.css";
+@import "./animations.css";
+@import "./common.css";
+@import "./controller.css";
+@import "./responsive.css";
+@import "./background.css";
+@import "./contents/index.css";
+#app{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* 
+.sample{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: .4;
+    position: absolute;
+}
+.sample__img{
+    width: 100%;
+    height: 100%;
+} */
