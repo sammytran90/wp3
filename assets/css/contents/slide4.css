@@ -1,27 +1,30 @@
 /* content slide 4 */
 .slide-4_pa-0{
-    top: 30vw;
-    left: 4vw;
+    top: 28vw;
+    left: 3vw;
 }
 .slide-4_pa-0_p-0{
-    margin: 2.1vw 0 0 2vw;
+    margin: 1.5vw 0 0 .8vw;
 }
 .slide-4_pa-0_p-1{
-    margin: 1.5vw 0 0 6.5vw;
+    margin: 1vw 0 0 1.5vw;
 }
 .slide-4_pa-0_p-2{
     margin: 1.1vw 0 0 8vw;
 }
 
 .slide-4_pa-1{
-    top: 6.5vw;
-    left: 75.5vw;
+    top: 5vw;
+    left: 77vw;
 }
 .slide-4_pa-1_p-0{
-    margin: 2.5vw 0 0 2.9vw;
+    margin: 2.5vw 0 0 1.5vw;
 }
 .slide-4_pa-1_p-1{
-    margin: 1.8vw 0 0 6vw;
+    margin: 0 0 0 1vw;
+}
+.slide-4_pa-1_p-1 p{    
+    font-size: 1.1rem !important;
 }
 .slide-4_pa-1_p-2{
     margin: 1.5vw 0 0 5vw;

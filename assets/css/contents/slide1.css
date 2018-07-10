@@ -1,18 +1,35 @@
 /* content slide 1 */
 .slide-1_pa-0{
-    top: 32.5vw;
+    top: 36vw;
     left: 3.6vw;
 }
 .slide-1_pa-0_p-0{
     margin: 0.6vw 0 0 0;
 }
 .slide-1_pa-1{
-    top: 2.5vw;
-    left: 74.5vw;
+    top: 3vw;
+    left: 78vw;
+}
+.slide-1_pa-1_p-0 p,
+.slide-1_pa-1_p-1 p{
+    font-size: 1.1rem !important;
+    line-height: 1.2rem !important;
+}
+.slide-1_pa-1_p-1 p{
+    text-align: right;
 }
 .slide-1_pa-2{
-    top: 5.5vw;
-    left: 78.5vw;
+    top: 22.3vw;
+    left: 80.5vw;
+}
+.slide-1_pa-2_p-1{
+    margin: .5vw 0 0 0;
+}
+.slide-1_pa-2_p-0 p,
+.slide-1_pa-2_p-1 p{
+    text-align: right;
+    font-size: 1.1rem !important;
+    line-height: 1.2rem !important;
 }
 .slide-1_pa-2 h4 > span:first-of-type,
 .slide-1_pa-2 p > span:first-of-type{

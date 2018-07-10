@@ -41,8 +41,8 @@
     width: 7.3vw;
 }
 .decoration_13{
-    left: 77.5vw;
-    top: 9.7vw;
+    left: 77.9vw;
+    top: 17vw;
     width: 10vw;
     /* transition: all 2s ease-out; */
 }
@@ -51,7 +51,7 @@
     transition: all 2s ease-out;
 }
 .decoration_21{
-    top: 24.5vw;
+    top: 23.5vw;
     left: 3vw;
     width: 7vw;
     mix-blend-mode: color-burn;
@@ -63,7 +63,7 @@
 }
 .decoration_23{
     left: -40.5vw;
-    top: 9.8vw;
+    top: 16.8vw;
     width: 16vw;
     height: .8vw;
     transition: all 2s ease-out;
@@ -78,14 +78,14 @@
     width: 7.5vw;
 }
 .decoration_32{
-    left: 20.7vw;
-    top: 41.5vw;
-    width: 5.5vw;
+    left: 24.7vw;
+    top: 44.5vw;
+    width: 4.5vw;
 }
 .decoration_33{
     left: 86vw;
-    top: 21vw;
-    width: 3.5vw;
+    top: 42vw;
+    width: 3vw;
 }
 .decoration_41{
     left: 3.5vw;

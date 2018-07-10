@@ -6,9 +6,9 @@ var app = new Vue({
         hover: false,
         date: null,
         contents: {
-            smalltittle: 'Legal Design Thinking',
-            tittle: 'Meetup #3',
-            topic: 'ENERGY TRANSITION',
+            smalltittle: '',
+            tittle: 'Border sessions lab',
+            topic: 'CO-OPERATIVES FOR LOCAL ECONOMIES',
             slides: [
                 [
                     {
@@ -66,34 +66,7 @@ var app = new Vue({
                                 '<i>- Rob Ruts.</i>'
                             ]
                         ]
-                    },
-                    {
-                        content: [
-                            [
-                                '<i>- Nienke Maas &</i>',
-                                '<i>Maurijn de Heus.</i>'
-                            ]
-                        ]
-                    },
-                    {
-                        content: [
-                            [
-                                'This lab unites',
-                                '<strong>innovators</strong> to',
-                                'pinpoint what our',
-                                '<strong>forefront of energy</strong>',
-                                '<strong>innovation labs</strong>',
-                                'should work on in',
-                                'order to turn European',
-                                'cities <strong>energy</strong>',
-                                '<strong>neutral</strong>, if they take',
-                                'up the social and',
-                                'organizational',
-                                'challenges <strong>parallel</strong>',
-                                '<strong>to the tech</strong>.'
-                            ]
-                        ]
-                    }
+                    }                    
                 ],
                 [
                     {
@@ -102,54 +75,47 @@ var app = new Vue({
                         ],
                         content: [
                             [
-                                'European cities have',
-                                'high ambitions to',
-                                'become energy and/or',
-                                'carbon neutral.'
+                                'Citizens are dealing',
+                                'with big challenges.'
+                            ],
+                            [
+                                'Co-operatives are',
+                                'part of the network',
+                                'of the new city.'
+                            ],
+                            [
+                                'Role of citizens is changing:',
+                                'taking over the responsibility',
+                                'of the government.'
                             ]
                         ]
                     },
                     {
                         content: [
                             [
-                                '<i>“Humans can deliver energy every</i>',
-                                '<i>day at every moment, so we are</i>',
-                                '<i>our new, clean, non-carbon energy</i>',
-                                '<i>source of the future.”</i>'
-                            ]
-                        ]
-                    },
-                    {
-                        content: [
+                                'Geographical area',
+                                'was very important',
+                                'for starting.'
+                            ],
                             [
-                                '<i>- Kris De Decker & Melle Smets.</i>'
-                            ]
-                        ]
-                    },
-                    {
-                        content: [
+                                'People can be poor',
+                                'financially but not in',
+                                'their craftmanship.'
+                            ],
                             [
-                                '<strong>How do we</strong>',
-                                '<strong>remain</strong>',
-                                '<strong>comfortable</strong>',
-                                '<strong>in our homes</strong>',
-                                '<strong>without</strong>',
-                                '<strong>investing</strong>',
-                                '<strong>enormous</strong>',
-                                '<strong>amounts of</strong>',
-                                '<strong>money or</strong>',
-                                '<strong>radically</strong>',
-                                '<strong>changing our</strong>',
-                                '<strong>lives?</strong>'
-                            ]
-                        ]
-                    },
-                    {
-                        content: [
+                                'Afrikander cooperation:',
+                                'Start with the',
+                                'market, more than',
+                                '300 interactions on',
+                                'the market based on',
+                                'collaboration of',
+                                'citizens and',
+                                'artists.'
+                            ],
                             [
-                                '<i>The focus</i>',
-                                '<i>is often on</i>',
-                                '<i>technology.</i>'
+                                'Afrikander cooperation:',
+                                '2008: more than',
+                                '300 interventions.'
                             ]
                         ]
                     }
@@ -157,140 +123,125 @@ var app = new Vue({
                 [
                     {
                         tittle4: [
-                            'Challenge #1'
+                            'Challenges'
                         ],
                         content: [
                             [
-                                'Coop: Build a Energy',
-                                'Cooperation for Tenants in',
-                                'Escamp The Hague.'
+                                'How can co-operatives in',
+                                'neighborhoods enhance local value?'
+                            ],
+                            [
+                                'How can citizens be a economical',
+                                'part of their own energy',
+                                'transition, future healthcare,',
+                                'security or food production?'
+                            ],
+                            [
+                                'Added value of the co-operatives is',
+                                'the healthier context to address',
+                                'urban challenges. It does away with',
+                                '‘the poor’,‘the sick’,‘the old’,‘the',
+                                'radicalizing young’,‘the lonely’ as',
+                                'target groups to be served as such.',
+                                'Future challenges can only be met',
+                                'through co-operations in which',
+                                'people show their strengths.'
                             ]
                         ]
                     },
                     {
                         tittle4: [
-                            'Solution #1'
+                            'Solutions'
                         ],
                         content: [
                             [
-                                '- New approach to',
-                                'conversation with tenants',
-                                'discussing the need for',
-                                'change and the choices to',
-                                'make together. ',
-                                '- Cost effectiveness of',
-                                'solutions is very',
-                                'important for both',
-                                'students and citizens.'
-                            ]
-                        ]
-                    },
-                    {
-                        tittle4: [
-                            'Challenge #2'
-                        ],
-                        content: [
+                                '‘From Waste to talent’:',
+                                'Cooperative for Plastic',
+                                'Recycling with ‘departments’',
+                                'of Beach, Parks, Urban and',
+                                'Other Resources. All',
+                                'departments have collecting,',
+                                'separation and recycling',
+                                'function. Part of cooperatives',
+                                'are stakeholders, e.g.',
+                                'tourists, municipality, local',
+                                'citizens, entrepreneurs,',
+                                'health organisation.'
+                            ],
                             [
-                                'Energy Monks: Create a Perfect Space for',
-                                'Energy Transition Collaboration.'
-                            ]
-                        ]
-                    },
-                    {
-                        tittle4: [
-                            'Solution #2'
-                        ],
-                        content: [
+                                'Power Bank cooperative for',
+                                'creating work by servicing',
+                                'the neighbourhood via health',
+                                'organisation, housing',
+                                'corporation, education and',
+                                'entrepreneurial',
+                                'organisation. Give people',
+                                'trust so they can develop',
+                                'with help from others.'
+                            ],
                             [
-                                '- Give some of your energy',
-                                'to charge your device. Do',
-                                'this alone or with others to',
-                                'save time and build up your',
-                                'own energy along the way!',
-                                '- Playground for kids to',
-                                'experience energy and',
-                                'discuss with parents about',
-                                'energy-transition. Keep this',
-                                'simple.'
+                                'Local development',
+                                'cooperation for creating an',
+                                'ecosystem in neighbourhoods',
+                                'with own coins,',
+                                'learning/growing facility',
+                                'for people, strong bond',
+                                'between residents and',
+                                'entrepreneurs, own health',
+                                'organisation and housing',
+                                'corporation.'
                             ]
                         ]
-                    },
-                    {
-                        tittle4: [
-                            'Challenge #3'
-                        ],
-                        content: [
-                            [
-                                'FreeLabs: Perfect',
-                                'Neighbourhood Labs Anywhere.'
-                            ]
-                        ]
-                    },
-                    {
-                        tittle4: [
-                            'Solution #3'
-                        ],
-                        content: [
-                            [
-                                '- Little store with one',
-                                'cigarette, some candy,',
-                                'pencil and cup of coffee.',
-                                'Clean, safe and start with',
-                                'children.',
-                                '- People like to meet up for',
-                                'discussions but not all want',
-                                'the same environment.',
-                                'Policymakers need to address',
-                                'this in communication plan',
-                                'for different options to',
-                                'engage citizens.'
-                            ]
-                        ]
-                    }
+                    },                    
                 ],
                 [
                     {
                         tittle4: [
                             'Participants',
-                            'feedback'
+                            'Remarks'
                         ],
                         content: [
                             [
-                                '<i>“Was really</i>',
-                                '<i>concrete and very</i>',
-                                '<i>important to do.”</i>'
+                                '<i>“Citizens must be seen</i>',
+                                '<i>as someone with</i>',
+                                '<i>opportunities instead of</i>',
+                                '<i>someone with problems.”</i>'
                             ],
                             [
-                                '<i>“I do not like</i>',
-                                '<i>workshops but</i>',
-                                '<i>this was one was</i>',
-                                '<i>fun.”</i>'
+                                '<i>“Building a cooperation with</i>',
+                                '<i>focus that is bigger than</i>',
+                                '<i>only production facility but</i>',
+                                '<i>also with learning, meeting</i>',
+                                '<i>and sharing facilities.”</i>'
                             ]
                         ]
                     },
                     {
                         tittle4: [
                             'Remarks by',
-                            'expert'
+                            'experts'
                         ],
                         content: [
                             [
-                                '<i>“For the energy</i>',
-                                '<i>transition focus on</i>',
-                                '<i>the home-owners who</i>',
-                                '<i>want to ignite</i>',
-                                '<i>change in the use of</i>',
-                                '<i>energy-resources</i>',
-                                '<i>with co-owners.”</i>'
+                                '<i>“We need to look at</i>',
+                                '<i>people as them being</i>',
+                                '<i>more than an</i>',
+                                '<i>employee by</i>',
+                                '<i>emphasizing other</i>',
+                                '<i>talent. We create</i>',
+                                '<i>self confidence,</i>',
+                                '<i>involvement and</i>',
+                                '<i>inclusion”</i>'
                             ],
                             [
-                                '<i>“Mashups are</i>',
-                                '<i>needed to</i>',
-                                '<i>deliver new</i>',
-                                '<i>approaches and</i>',
-                                '<i>solutions by</i>',
-                                '<i>existing and new</i>',
-                                '<i>stakeholders.”</i>'
+                                '<i>- Annet van Otterloo.</i>'
+                            ],
+                            [
+                                '<i>“We need the</i>',
+                                '<i>acceptance that</i>',
+                                '<i>the organisation</i>',
+                                '<i>of a cooperation</i>',
+                                '<i>takes time.”</i>'
                             ]
                         ]
                     }                    
@@ -327,10 +278,10 @@ var app = new Vue({
             })
             // change tittle if slide 4
             if (this.slide == 4) {
-                this.contents.tittle = 'Coming up...';
+                this.contents.tittle = 'Next Steps...';
                 // this.contents.topic = '13 JUNE 2018';
             } else {
-                this.contents.tittle = 'Meetup #3';
+                this.contents.tittle = 'Border sessions lab';
                 // this.contents.topic = 'ENERGY TRANSITION';
             }
         },

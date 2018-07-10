@@ -103,26 +103,29 @@
 .tittles__tittle.tittle-end{
     left: -1vw;
 }
+.tittles__tittle.tittle-end h1{
+    font-size: 6.5rem;
+}
 .tittles__tittle h1{
     white-space: nowrap;
-    letter-spacing: -.1rem;
+    letter-spacing: -0.32rem;
 }
 .tittles__tittle.deco-swing::before{
-    top: 0.1vw;
+    top: 0.6vw;
     left: -5.5vw;
     width: 6vw;
-    height: 4.6vw;
+    height: 3.6vw;
 }
 .tittles__topic.deco-swing::before{
     top: 0.4vw;
-    left: -5.7vw;
+    left: 4vw;
     width: 6vw;
     height: 3vw;
 }
 .tittles__topic{
     position: absolute;
     letter-spacing: .08rem;
-    bottom: 0;
+    bottom: -2vw;
     text-align: right;
     right: 0;
     line-height: .9;
@@ -145,10 +148,11 @@
     transform-origin: right bottom;
     top: 46.3vw;
     right: 3px;
-    font-size: 2.7rem;
+    font-size: 1.8rem;
     color: rgb(210,100,20);
     mix-blend-mode: darken;
     line-height: 1.1;
+    letter-spacing: -.05rem;
 }
 .download{
     position: relative;
