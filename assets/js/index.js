@@ -7,7 +7,7 @@ var app = new Vue({
         date: null,
         contents: {
             smalltittle: '',
-            tittle: 'Border sessions lab',
+            tittle: 'Border Sessions lab',
             topic: 'CO-OPERATIVES FOR LOCAL ECONOMIES',
             slides: [
                 [
@@ -84,9 +84,11 @@ var app = new Vue({
                                 'of the new city.'
                             ],
                             [
-                                'Role of citizens is changing:',
-                                'taking over the responsibility',
-                                'of the government.'
+                                'Role of citizens is',
+                                'changing: want to take more',
+                                'responsibilities to',
+                                'influent their and others',
+                                'lives in neighbouthoods'
                             ]
                         ]
                     },
@@ -104,18 +106,18 @@ var app = new Vue({
                             ],
                             [
                                 'Afrikander cooperation:',
-                                'Start with the',
-                                'market, more than',
-                                '300 interactions on',
-                                'the market based on',
+                                'Start with the market',
+                                '- more than 300',
+                                'interactions on the',
+                                'market based on',
                                 'collaboration of',
-                                'citizens and',
-                                'artists.'
+                                'citizens and artists.'
                             ],
                             [
-                                'Afrikander cooperation:',
-                                '2008: more than',
-                                '300 interventions.'
+                                'Afrikander',
+                                'cooperation: 2008',
+                                '- more than 300',
+                                'interventions.'
                             ]
                         ]
                     }
@@ -281,8 +283,13 @@ var app = new Vue({
                 this.contents.tittle = 'Next Steps...';
                 // this.contents.topic = '13 JUNE 2018';
             } else {
-                this.contents.tittle = 'Border sessions lab';
+                this.contents.tittle = 'Border Sessions lab';
                 // this.contents.topic = 'ENERGY TRANSITION';
+            }
+        },
+        slideForward: function () {
+            if (this.slide < 4) {
+                this.slide++;
             }
         },
         arrowNavigation: function () {
