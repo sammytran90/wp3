@@ -105,17 +105,17 @@ var app = new Vue({
                                 'their craftmanship.'
                             ],
                             [
-                                'Afrikander cooperation:',
-                                'Start with the market',
-                                '- more than 300',
-                                'interactions on the',
-                                'market based on',
+                                'Afrikaanderwijk',
+                                'Cooperative: Start',
+                                'with the market - more',
+                                'than 300 interactions',
+                                'on the market based on',
                                 'collaboration of',
                                 'citizens and artists.'
                             ],
                             [
-                                'Afrikander',
-                                'cooperation: 2008',
+                                'Afrikaanderwijk',
+                                'Cooperative: 2008',
                                 '- more than 300',
                                 'interventions.'
                             ]
